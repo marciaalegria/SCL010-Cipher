@@ -1,3 +1,4 @@
+
 window.cipher = {
   encode: (mensaje,offset) => {
    //creando función codificar
@@ -5,6 +6,7 @@ window.cipher = {
   //creando let para pasar palabras a mayusculas
       let mensajeEnMayuscula = mensaje.toUpperCase();
   //crea variable llamada mensaje cifrado
+  console.log(mensajeEnMayuscula)
       let mensajecifrado = "";
   //creando un for para recorrer mensaje
       for (let i = 0; i < mensajeEnMayuscula.length; i++){
@@ -33,7 +35,7 @@ window.cipher = {
   //creando un for para recorrer mensaje (offset)
       for (let i = 0; i<mensajeEnMayuscula.length;i++){
         let ascii = mensajeEnMayuscula.charCodeAt(i);
-        let formula = ((ascii+65 + offset ) % 26 - 65);
+          let formula = ((ascii-90 - offset ) % 26 + 90);
   //
         let nuevaletra = String.fromCharCode(formula);
   //

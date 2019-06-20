@@ -6,13 +6,12 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
+    <div id="pantallabienvenida">
       <h1>App family</h1>
         <p>Dilo en códigos</p>
     </div>
     <div id= mensaje >
-      <p>codigo secreto</p>
-      <h2><input type="text" id="" value=""></input>codigo secreto</h2>
+      <h2><input type="text" id="txtCodigoSecreto" value=""></input>codigo secreto</h2>
       <button type="button" id="btn_1" onclick="boton1()">descifrar mensaje</button>
       <p></p>
       <button type="button" id="btn_2" onclick="boton2()">cifrar mensaje</button>
@@ -22,7 +21,7 @@
     <div class="pantalla2">
         <p>ingresar mensaje</p>
           <h2><textarea id="espacio1" rows=""cols="" placeholder=""></textarea></h2>
-          <button type="button" id="btn_3" onclick="boton3()">ver resultado</button>
+          <button type="button" id="btn_3" onclick="decodificar()">descifrar</button>
           <h2><textarea id="espacio2" rows=""cols="" placeholder=""></textarea></h2>
           <button type="button" id="btn_4" onclick="boton4()">Salir</button>
           <button type="button" id="btn_5" onclick="boton5()">volver</button>
@@ -31,14 +30,14 @@
 
     <div id="pantalla3">
         <p>ingresar mensaje</p>
-        <h2><textarea id="espacio3" rows=""cols="" placeholder=""></textarea></h2>
-        <button type="button" id="btn_5" onclick="boton6()">codificar</button>
+        <h2><textarea id="txtTextoCodificar" rows=""cols="" placeholder=""></textarea></h2>
+        <button type="button" id="btnEncriptar" onclick="codificar()">cifrar</button>
         <h2><textarea id="espacio4" rows=""cols="" placeholder=""></textarea></h2>
         <button type="button" id="btn_4" onclick="boton4()">Salir</button>
         <button type="button" id="btn_5" onclick="boton5()">volver</button>
     </div>
            
-    <script src="cipher.js"></script>
+    <!--<script src="cipher.js"></script>-->
     <script src="index.js"></script>
   </body>
 </html>
