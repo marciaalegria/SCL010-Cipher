@@ -1,6 +1,6 @@
 
 window.cipher = {
-    encode: () => {
+    encode: ()=> {
     
         let offset = document.getElementById("txtCodigoSecreto").value;
         //console.log(offset);

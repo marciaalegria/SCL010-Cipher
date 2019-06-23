@@ -16,44 +16,13 @@ Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
 
 ## Resumen del proyecto
+Proyecto pensado para enviar mensajes cifrados dentro de un grupo familiar claves de correo electronico o claves de paginas web para que no puedan ser vistas por terceros, ya que si enviamos una clave sin cifrar puede ser vista por cualquier persona que no es de nuestra confianza, con esta app podemos enviar mensajes y podemos hacer que lo vean solo la persona a quien le enviamos nuestro código secreto (_offset_).
 
-¿Qué tengo que hacer exactamente? En este proyecto crearás la primera aplicación web del _bootcamp_. Servirá para que el usuario pueda cifrar y descifrar un texto indicando un desplazamiento específico de caracteres (_offset_).
+inicialmente se pensó en una aplicación un poco confusa, por lo tanto, el modelo original se modificó tratando de hacerlo lo más práctica posible, tomando en cuenta que usarás la app al ecibir un mensaje cifrado, el primer boton a ejecutar serpa descifrar mensaje y como segunda opción el boton cifrar mensaje. una vez ingresados los caracteres tienes la opción de salir o volver, la opción volver te enviará a la pantalla inicial pudiendo elegir nueamente entre las opciones cifrar y descifrar; la opción salir cierra la app.
 
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se necesitaría cifrar un mensaje y pensar en cómo debe ser esa experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc. 
-
-Algunas ideas de ejemplo:
-
-- Crear claves seguras para el email.
-- Encriptar/cifrar una tarjeta de crédito.
-- Herramienta de mensajería interna de una organización de derechos humanos en una zona de conflicto.
-- Mensajería secreta para parejas.
+Creo que este producto resuelve el problema de tener que cambiar de caves secretas cada vez que la escribiste en un lugar público, pudiendo así conservarla por más tiempo.
 
 
-## Consideraciones generales
-
-- Este proyecto se debe resolver de manera individual.
-- El proyecto será entregado subiendo tu código a GitHub (commit/push) y la interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no te preocupes, lo aprenderás durante este proyecto.
-- Tiempo para completarlo: El proyecto dura 2 semanas, trabaja con sprints y planificando tus tareas.
-
-## Objetivos de aprendizaje
-
-En este proyecto aprenderás a construir una aplicación web que interactúe con el usuario a través del navegador y la lógica basada en esa interacción. Dicho en palabras sencillas, aprenderás a:
-
-- Pintar elementos de formulario en la pantalla usando **HTML** y **CSS**.
-- Permitir al usuario interactuar (**eventos del DOM**) y hacer algo cuando ocurran dichos eventos (cifrar/descifrar).
-- Manipular _**strings**_ (cadenas de texto).
-- Usar **control de flujo** (bucles, condicionales, ...).
-- Actualizar la pantalla con los resultados (**manipular el DOM**).
-- **Implementar funciones** dada una descripción de su comportamiento.
-- Verificar tu implementación con **pruebas unitarias**.
-- Entender las **necesidades del usuario** y cómo proponer una solución.
-- Organizar tu tiempo y priorizar tareas en un entorno de **alta incertidumbre**.
-
-## Parte Obligatoria
-
-Usa este alfabeto simple (solamente mayúsculas y sin ñ):
-
-- A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 #### Definición del producto
 

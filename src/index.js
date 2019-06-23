@@ -1,22 +1,51 @@
-function boton1(){
+document.getElementById("boton1").addEventListener("click",function(){
+
     document.getElementById("pantallabienvenida").style.display="none";
     document.getElementById("pantalla1").style.display="none";
     document.getElementById("pantalla2").style.display="block";
-}
-function boton5(){
+});
+
+document.getElementById("botonn5").addEventListener("click",function(){
+
     document.getElementById("pantallabienvenida").style.display="block";
     document.getElementById("pantalla1").style.display="block";
     document.getElementById("pantalla2").style.display="none";
     document.getElementById("pantalla3").style.display="none"
-}
-function boton2(){
+});
+document.getElementById("boton2").addEventListener("click",function(){
+
     document.getElementById("pantallabienvenida").style.display="none";
     document.getElementById("pantalla1").style.display="none";
     document.getElementById("pantalla3").style.display="block";
-}
-function boton4(){
+});
+document.getElementById("boton5").addEventListener("click",function(){
+
+    document.getElementById("pantallabienvenida").style.display="block";
+    document.getElementById("pantalla1").style.display="block";
+    document.getElementById("pantalla2").style.display="none";
+    document.getElementById("pantalla3").style.display="none"
+});
+document.getElementById("boton4").addEventListener("click",function(){
+
+    document.getElementById("pantallabienvenida").style.display="block";
+    document.getElementById("pantalla1").style.display="block";
+    document.getElementById("pantalla2").style.display="none";
+    document.getElementById("pantalla3").style.display="none"
+});
+
+/*
+document.getElementById("boton3").addEventListener("click",function(){
+
+    document.getElementById("pantallabienvenida").style.display="block";
+    document.getElementById("pantalla1").style.display="block";
+    document.getElementById("pantalla3").style.display="none";
+
+});
+*/
+document.getElementById("botonn4").addEventListener("click",function(){
+
     window.close();
-}
+});
 
 //boton4();
 //boton2();

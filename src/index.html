@@ -11,20 +11,20 @@
         <p>Dilo en códigos</p>
     </div>
     <div id="pantalla1">
-      <h2><input type="text" id="txtCodigoSecreto" value="" />codigo secreto</h2>
-      <button type="button" id="btn_1" onclick="boton1()">descifrar mensaje</button>
+      <h2><input type="number" id="txtCodigoSecreto" value="" />codigo secreto</h2>
+      <button type="button" id="boton1">descifrar mensaje</button>
       <p></p>
-      <button type="button" id="btn_2" onclick="boton2()">cifrar mensaje</button>
+      <button type="button" id="boton2">cifrar mensaje</button>
     
     </div>
   
     <div id="pantalla2" style="display:none;">
         <p>ingresar mensaje</p>
           <h2><textarea id="espacio1" rows="" cols="" placeholder=""></textarea></h2>
-          <button type="button" id="btn_3" onclick="cipher.decode()">descifrar</button>
+          <button type="button" id="boton3_" onclick="cipher.decode()">descifrar</button>
           <h2><textarea id="espacio2"></textarea></h2>
-          <button type="button" id="btnn_4" onclick="boton4()">Salir</button>
-          <button type="button" id="btnn_5" onclick="boton5()">volver</button>
+          <button type="button" id="botonn4">Salir</button>
+          <button type="button" id="botonn5">volver</button>
    
     </div>
 
@@ -33,8 +33,8 @@
         <h2><textarea id="txtTextoCodificar"></textarea></h2>
         <button type="button" id="btnEncriptar" onclick="cipher.encode()">cifrar</button>
         <h2><textarea id="espacio4"></textarea></h2>
-        <button type="button" id="btn_4" onclick="boton4()">Salir</button>
-        <button type="button" id="btn_5" onclick="boton5()">volver</button>
+        <button type="button" id="boton4">Salir</button>
+        <button type="button" id="boton5">volver</button>
     </div>
            
     <script src="cipher.js"></script>
