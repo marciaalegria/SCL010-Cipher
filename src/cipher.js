@@ -18,7 +18,7 @@ window.cipher = {
             let ascii = mensajeEnMayuscula.charCodeAt(i);
             //console.log(ascii);
             //crea formula 
-            let formula = (ascii-65+offset%26+65);
+            let formula = (ascii-65+offset%36+65);
             //console.log(formula);
             nuevaletra = String.fromCharCode(formula);
       
